@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Correctional Vision: Improving Vision, Transforming Lives.</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+
+  <!--Bootstrap ================================================== -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+  <!--vendor css ================================================== -->
+  <link rel="stylesheet" type="text/css" href="css/vendor.css">
+
+  <!--Link Swiper's CSS ================================================== -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <!--Link Swiper's CSS ================================================== -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Style Sheet ================================================== -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Google Fonts ================================================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- svg section -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="user-heart" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M5.25 6a4.75 4.75 0 1 1 9.5 0a4.75 4.75 0 0 1-9.5 0M10 2.75a3.25 3.25 0 1 0 0 6.5a3.25 3.25 0 0 0 0-6.5M3.976 13.664c1.58-.888 3.71-1.414 6.024-1.414s4.445.526 6.025 1.414c1.556.876 2.725 2.202 2.725 3.836v.102c.001 1.162.003 2.62-1.276 3.662c-.63.512-1.51.877-2.7 1.117c-1.193.242-2.748.369-4.774.369s-3.58-.127-4.774-.369c-1.19-.24-2.07-.605-2.7-1.117c-1.278-1.042-1.277-2.5-1.276-3.662V17.5c0-1.634 1.17-2.96 2.726-3.836m.735 1.308c-1.34.753-1.96 1.677-1.96 2.528c0 1.308.04 2.044.723 2.6c.37.302.99.597 2.05.811c1.057.214 2.502.339 4.476.339s3.42-.125 4.476-.339c1.06-.214 1.68-.509 2.05-.81c.684-.557.724-1.293.724-2.601c0-.851-.621-1.775-1.96-2.528c-1.317-.74-3.185-1.222-5.29-1.222s-3.973.482-5.289 1.222M16.69 7.447c.721-.319 1.558-.259 2.31.232c.752-.49 1.59-.551 2.31-.232A2.46 2.46 0 0 1 22.75 9.7c0 .948-.414 1.662-.91 2.203c-.388.422-.867.779-1.245 1.06l-.228.172l-.002.001c-.15.114-.341.26-.544.375a1.7 1.7 0 0 1-.82.239c-.335 0-.618-.123-.822-.239a5 5 0 0 1-.543-.375l-.002-.001l-.228-.171c-.379-.282-.858-.639-1.245-1.06c-.497-.542-.91-1.256-.91-2.204c0-1 .584-1.875 1.44-2.253m.06 2.253c0-.412.24-.745.547-.881c.267-.118.69-.13 1.171.353a.75.75 0 0 0 1.064 0c.48-.483.905-.471 1.17-.353a.96.96 0 0 1 .548.88c0 .465-.189.833-.516 1.19c-.282.308-.618.559-.99.837l-.287.216a4 4 0 0 1-.375.264a1 1 0 0 1-.082.04a1 1 0 0 1-.082-.04c-.1-.056-.212-.14-.374-.264l-.288-.216c-.372-.278-.708-.53-.99-.837c-.327-.357-.516-.725-.516-1.19"
+        clip-rule="evenodd" />
+    </symbol>
+   
+    <symbol id="bus" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M11.944 1.25h.112c1.838 0 3.294 0 4.433.153c1.172.158 2.121.49 2.87 1.238c.748.749 1.08 1.698 1.238 2.87c.103.764.136 1.67.147 2.739H21c.966 0 1.75.784 1.75 1.75v1c0 .55-.26 1.07-.7 1.4l-1.303.977c-.007 1.232-.036 2.26-.15 3.112c-.158 1.172-.49 2.121-1.238 2.87q-.285.284-.609.493V21A1.75 1.75 0 0 1 17 22.75h-1.5A1.75 1.75 0 0 1 13.75 21v-.256q-.786.007-1.694.006h-.112q-.909.002-1.694-.006V21a1.75 1.75 0 0 1-1.75 1.75H7A1.75 1.75 0 0 1 5.25 21v-1.148a3.7 3.7 0 0 1-.609-.493c-.748-.749-1.08-1.698-1.238-2.87c-.114-.852-.143-1.88-.15-3.112L1.95 12.4c-.44-.33-.7-.85-.7-1.4v-1c0-.966.784-1.75 1.75-1.75h.255c.012-1.069.045-1.975.148-2.739c.158-1.172.49-2.121 1.238-2.87c.749-.748 1.698-1.08 2.87-1.238c1.14-.153 2.595-.153 4.433-.153M3.25 9.75H3a.25.25 0 0 0-.25.25v1a.25.25 0 0 0 .1.2l.4.3zm1.506 4c.01 1.034.042 1.858.134 2.54c.135 1.005.389 1.585.812 2.008s1.003.677 2.009.812c1.028.138 2.382.14 4.289.14s3.262-.002 4.29-.14c1.005-.135 1.585-.389 2.008-.812s.677-1.003.812-2.009c.092-.68.123-1.505.134-2.539zm14.494-1.5H4.75V10c0-1.883.002-3.227.135-4.25h14.23c.133 1.023.135 2.367.135 4.25zm1.5-.75l.4-.3a.25.25 0 0 0 .1-.2v-1a.25.25 0 0 0-.25-.25h-.25zm-2.049-7.25a2.3 2.3 0 0 0-.403-.548c-.423-.423-1.003-.677-2.009-.812c-1.028-.138-2.382-.14-4.289-.14s-3.261.002-4.29.14c-1.005.135-1.585.389-2.008.812a2.3 2.3 0 0 0-.403.548zM6.75 20.46V21c0 .138.112.25.25.25h1.5a.25.25 0 0 0 .25-.25v-.296a15 15 0 0 1-1.239-.107a8 8 0 0 1-.761-.137m8.5.244V21c0 .138.112.25.25.25H17a.25.25 0 0 0 .25-.25v-.54q-.363.084-.761.137a15 15 0 0 1-1.239.107M6.25 16a.75.75 0 0 1 .75-.75h1.5a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1-.75-.75m8.5 0a.75.75 0 0 1 .75-.75H17a.75.75 0 0 1 0 1.5h-1.5a.75.75 0 0 1-.75-.75"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol id="book" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M9.945 1.25h4.11c1.368 0 2.47 0 3.337.117c.9.12 1.658.38 2.26.981c.602.602.86 1.36.982 2.26c.116.867.116 1.97.116 3.337v8.11c0 1.367 0 2.47-.116 3.337c-.121.9-.38 1.658-.982 2.26s-1.36.86-2.26.982c-.867.116-1.97.116-3.337.116h-4.11c-1.367 0-2.47 0-3.337-.116c-.9-.122-1.658-.38-2.26-.982s-.86-1.36-.981-2.26a12 12 0 0 1-.082-.943a.75.75 0 0 1-.016-.392a66 66 0 0 1-.019-2.002v-8.11c0-1.367 0-2.47.117-3.337c.12-.9.38-1.658.982-2.26c.601-.602 1.36-.86 2.26-.981c.866-.117 1.969-.117 3.336-.117m-5.168 17c.015.353.039.664.076.942c.099.734.28 1.122.556 1.399c.277.277.666.457 1.4.556c.755.101 1.756.103 3.191.103h4c1.436 0 2.437-.002 3.192-.103c.734-.099 1.122-.28 1.4-.556c.276-.277.456-.665.555-1.4c.083-.615.1-1.395.102-2.441H13.75v2.808c0 .111 0 .27-.02.406a.94.94 0 0 1-.445.683a.96.96 0 0 1-.783.072c-.13-.04-.272-.109-.378-.159l-.024-.012l-1.1-.522l-1.1.522l-.024.012c-.106.05-.248.118-.378.159a.96.96 0 0 1-.783-.072a.94.94 0 0 1-.444-.683a3 3 0 0 1-.02-.406V16.75h-.353c-.978 0-1.32.006-1.582.077a2.25 2.25 0 0 0-1.54 1.422m4.973-1.5v2.21l.75-.357l.008-.004a1.1 1.1 0 0 1 .492-.13c.236 0 .443.105.492.13l.009.004l.75.356V16.75zm-1.852-1.5h-.116c-.818 0-1.376 0-1.855.128a3.8 3.8 0 0 0-1.177.548V8c0-1.435.002-2.437.103-3.192c.099-.734.28-1.122.556-1.399c.277-.277.666-.457 1.4-.556c.755-.101 1.756-.103 3.191-.103h4c1.436 0 2.437.002 3.192.103c.734.099 1.122.28 1.4.556c.276.277.456.665.555 1.4c.102.754.103 1.756.103 3.191v7.25zM7.25 7A.75.75 0 0 1 8 6.25h8a.75.75 0 0 1 0 1.5H8A.75.75 0 0 1 7.25 7m0 3.5A.75.75 0 0 1 8 9.75h5a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1-.75-.75"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol id="check-circle" viewBox="0 0 24 24">
+      <path fill="currentColor"
+        d="M16.03 10.03a.75.75 0 1 0-1.06-1.06l-4.47 4.47l-1.47-1.47a.75.75 0 0 0-1.06 1.06l2 2a.75.75 0 0 0 1.06 0z" />
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M12 1.25C6.063 1.25 1.25 6.063 1.25 12S6.063 22.75 12 22.75S22.75 17.937 22.75 12S17.937 1.25 12 1.25M2.75 12a9.25 9.25 0 1 1 18.5 0a9.25 9.25 0 0 1-18.5 0"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol id="star" viewBox="0 0 512 512">
+      <path fill="currentColor"
+        d="M394 480a16 16 0 0 1-9.39-3L256 383.76L127.39 477a16 16 0 0 1-24.55-18.08L153 310.35L23 221.2a16 16 0 0 1 9-29.2h160.38l48.4-148.95a16 16 0 0 1 30.44 0l48.4 149H480a16 16 0 0 1 9.05 29.2L359 310.35l50.13 148.53A16 16 0 0 1 394 480" />
+    </symbol>
+    <symbol id="location" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M3.25 10.143C3.25 5.244 7.155 1.25 12 1.25s8.75 3.994 8.75 8.893c0 2.365-.674 4.905-1.866 7.099c-1.19 2.191-2.928 4.095-5.103 5.112a4.2 4.2 0 0 1-3.562 0c-2.175-1.017-3.913-2.92-5.103-5.112c-1.192-2.194-1.866-4.734-1.866-7.099M12 2.75c-3.992 0-7.25 3.297-7.25 7.393c0 2.097.603 4.392 1.684 6.383c1.082 1.993 2.612 3.624 4.42 4.469a2.7 2.7 0 0 0 2.291 0c1.809-.845 3.339-2.476 4.421-4.469c1.081-1.99 1.684-4.286 1.684-6.383c0-4.096-3.258-7.393-7.25-7.393m0 5a2.25 2.25 0 1 0 0 4.5a2.25 2.25 0 0 0 0-4.5M8.25 10a3.75 3.75 0 1 1 7.5 0a3.75 3.75 0 0 1-7.5 0"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol id="phone" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M5.733 2.043c1.217-1.21 3.221-.995 4.24.367l1.262 1.684c.83 1.108.756 2.656-.229 3.635l-.238.238a.65.65 0 0 0-.008.306c.063.408.404 1.272 1.832 2.692s2.298 1.76 2.712 1.824a.7.7 0 0 0 .315-.009l.408-.406c.876-.87 2.22-1.033 3.304-.444l1.91 1.04c1.637.888 2.05 3.112.71 4.445l-1.421 1.412c-.448.445-1.05.816-1.784.885c-1.81.169-6.027-.047-10.46-4.454c-4.137-4.114-4.931-7.702-5.032-9.47l.749-.042l-.749.042c-.05-.894.372-1.65.91-2.184zm3.04 1.266c-.507-.677-1.451-.731-1.983-.202l-1.57 1.56c-.33.328-.488.69-.468 1.036c.08 1.405.72 4.642 4.592 8.492c4.062 4.038 7.813 4.159 9.263 4.023c.296-.027.59-.181.865-.454l1.42-1.413c.578-.574.451-1.62-.367-2.064l-1.91-1.039c-.528-.286-1.146-.192-1.53.19l-.455.453l-.53-.532c.53.532.529.533.528.533l-.001.002l-.003.003l-.007.006l-.015.014a1 1 0 0 1-.136.106c-.08.053-.186.112-.319.161c-.27.101-.628.155-1.07.087c-.867-.133-2.016-.724-3.543-2.242c-1.526-1.518-2.122-2.66-2.256-3.526c-.069-.442-.014-.8.088-1.07a1.5 1.5 0 0 1 .238-.42l.032-.035l.014-.015l.006-.006l.003-.003l.002-.002l.53.53l-.53-.531l.288-.285c.428-.427.488-1.134.085-1.673z"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol id="arrow-right" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M13.47 5.47a.75.75 0 0 1 1.06 0l6 6a.75.75 0 0 1 0 1.06l-6 6a.75.75 0 1 1-1.06-1.06l4.72-4.72H4a.75.75 0 0 1 0-1.5h14.19l-4.72-4.72a.75.75 0 0 1 0-1.06"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol id="arrow-left" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M10.53 5.47a.75.75 0 0 1 0 1.06l-4.72 4.72H20a.75.75 0 0 1 0 1.5H5.81l4.72 4.72a.75.75 0 1 1-1.06 1.06l-6-6a.75.75 0 0 1 0-1.06l6-6a.75.75 0 0 1 1.06 0"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol id="alt-arrow" viewBox="0 0 24 24">
+      <path fill="currentColor" fill-rule="evenodd"
+        d="M8.512 4.43a.75.75 0 0 1 1.057.082l6 7a.75.75 0 0 1 0 .976l-6 7a.75.75 0 0 1-1.138-.976L14.012 12L8.431 5.488a.75.75 0 0 1 .08-1.057"
+        clip-rule="evenodd" />
+    </symbol>
+    <symbol id="navbar-icon" viewBox="0 0 24 24">
+      <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M4 6h16M7 12h13m-10 6h10" />
+    </symbol>
+     <symbol id="medical" <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M184 48l144 0c4.4 0 8 3.6 8 8l0 40L176 96l0-40c0-4.4 3.6-8 8-8zm-56 8l0 40L64 96C28.7 96 0 124.7 0 160L0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256c0-35.3-28.7-64-64-64l-64 0 0-40c0-30.9-25.1-56-56-56L184 0c-30.9 0-56 25.1-56 56zm96 152c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48z"/></symbol>
+    <symbol id="eye" <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.5.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM144 256a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-64c0 35.3-28.7 64-64 64c-7.1 0-13.9-1.2-20.3-3.3c-5.5-1.8-11.9 1.6-11.7 7.4c.3 6.9 1.3 13.8 3.2 20.7c13.7 51.2 66.4 81.6 117.6 67.9s81.6-66.4 67.9-117.6c-11.1-41.5-47.8-69.4-88.6-71.1c-5.8-.2-9.2 6.1-7.4 11.7c2.1 6.4 3.3 13.2 3.3 20.3z"/></symbol>
+    <symbol id="rx"
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. --><path d="M32 0C14.3 0 0 14.3 0 32V192v96c0 17.7 14.3 32 32 32s32-14.3 32-32V224h50.7l128 128L137.4 457.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L288 397.3 393.4 502.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L333.3 352 438.6 246.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 306.7l-85.8-85.8C251.4 209.1 288 164.8 288 112C288 50.1 237.9 0 176 0H32zM176 160H64V64H176c26.5 0 48 21.5 48 48s-21.5 48-48 48z"/></symbol>
+     <symbol id="glasses" <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --><path d="M118.6 80c-11.5 0-21.4 7.9-24 19.1L57 260.3c20.5-6.2 48.3-12.3 78.7-12.3c32.3 0 61.8 6.9 82.8 13.5c10.6 3.3 19.3 6.7 25.4 9.2c3.1 1.3 5.5 2.4 7.3 3.2c.9 .4 1.6 .7 2.1 1l.6 .3 .2 .1c0 0 .1 0 .1 0c0 0 0 0 0 0s0 0 0 0L247.9 288s0 0 0 0l6.3-12.7c5.8 2.9 10.4 7.3 13.5 12.7l40.6 0c3.1-5.3 7.7-9.8 13.5-12.7l6.3 12.7s0 0 0 0c-6.3-12.7-6.3-12.7-6.3-12.7s0 0 0 0s0 0 0 0c0 0 .1 0 .1 0l.2-.1 .6-.3c.5-.2 1.2-.6 2.1-1c1.8-.8 4.2-1.9 7.3-3.2c6.1-2.6 14.8-5.9 25.4-9.2c21-6.6 50.4-13.5 82.8-13.5c30.4 0 58.2 6.1 78.7 12.3L481.4 99.1c-2.6-11.2-12.6-19.1-24-19.1c-3.1 0-6.2 .6-9.2 1.8L416.9 94.3c-12.3 4.9-26.3-1.1-31.2-13.4s1.1-26.3 13.4-31.2l31.3-12.5c8.6-3.4 17.7-5.2 27-5.2c33.8 0 63.1 23.3 70.8 56.2l43.9 188c1.7 7.3 2.9 14.7 3.5 22.1c.3 1.9 .5 3.8 .5 5.7l0 6.7 0 41.3 0 16c0 61.9-50.1 112-112 112l-44.3 0c-59.4 0-108.5-46.4-111.8-105.8L306.6 352l-37.2 0-1.2 22.2C264.9 433.6 215.8 480 156.3 480L112 480C50.1 480 0 429.9 0 368l0-16 0-41.3L0 304c0-1.9 .2-3.8 .5-5.7c.6-7.4 1.8-14.8 3.5-22.1l43.9-188C55.5 55.3 84.8 32 118.6 32c9.2 0 18.4 1.8 27 5.2l31.3 12.5c12.3 4.9 18.3 18.9 13.4 31.2s-18.9 18.3-31.2 13.4L127.8 81.8c-2.9-1.2-6-1.8-9.2-1.8zM64 325.4L64 368c0 26.5 21.5 48 48 48l44.3 0c25.5 0 46.5-19.9 47.9-45.3l2.5-45.6c-2.3-.8-4.9-1.7-7.5-2.5c-17.2-5.4-39.9-10.5-63.6-10.5c-23.7 0-46.2 5.1-63.2 10.5c-3.1 1-5.9 1.9-8.5 2.9zM512 368l0-42.6c-2.6-.9-5.5-1.9-8.5-2.9c-17-5.4-39.5-10.5-63.2-10.5c-23.7 0-46.4 5.1-63.6 10.5c-2.7 .8-5.2 1.7-7.5 2.5l2.5 45.6c1.4 25.4 22.5 45.3 47.9 45.3l44.3 0c26.5 0 48-21.5 48-48z"/></symbol>
+  </svg>
+
+  <!-- header nav section -->
+  <header id="header" class="fixed-top">
+    <nav class="header-top first-header bg-primary py-1 ">
+      <div class="container-md">
+        <div class="d-flex flex-wrap justify-content-between align-items-center">
+          <ul class="info d-flex flex-wrap list-unstyled m-0">
+            <li class="text-white text-titlecase d-flex align-items-center  me-4">
+              Improving Vision, Transforming Lives.
+            </li>
+
+          </ul>
+          <!--<ul class=" d-flex flex-wrap list-unstyled m-0">
+            <li class="text-white text-titlecase d-flex align-items-center me-4">
+              <a href="">View location </a>
+
+            </li>
+            <li class="text-white text-titlecased-flex align-items-center ">
+              <a href="">Calculator</a>
+            </li>
+          </ul><-->
+        </div>
+      </div>
+    </nav>
+    <nav id="primary-header" class="navbar bg-white second-header navbar-expand-lg py-4 mt-1 ">
+      <div class="container-md justify-content-between d-flex">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/Logo.png" class="logo img-left">
+        </a>
+        <button class="navbar-toggler border-0 d-flex d-lg-none order-3 p-2 shadow-none" type="button"
+          data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false">
+          <svg class=" text-primary" width="60" height="60">
+            <use xlink:href="#navbar-icon"></use>
+          </svg>
+        </button>
+        <div class="header-bottom offcanvas offcanvas-end" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel">
+          <div class="offcanvas-header p-4 pb-0">
+            <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"
+              data-bs-target="#bdNavbar"></button>
+          </div>
+          <div class="offcanvas-body align-items-center justify-content-end">
+            <ul class="navbar-nav  align-items-center mb-lg-0">
+              <li class="nav-item px-4">
+                <a class="nav-link text-titlecase active p-0" aria-current="page" href="index.html">Home</a>
+              </li>
+               <li class="nav-item px-4">
+                <a class="nav-link text-titlecase p-0" href="mission.html">Mission</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link text-titlecase p-0" href="about.html">About</a>
+              </li>
+              <!--li class="nav-item px-4">
+                <a class="nav-link text-titlecase p-0" href="loans.html">Loans</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link text-titlecase p-0" href="articles.html">Articles</a>
+              </li>
+              <li class="nav-item px-4">
+                <a class="nav-link text-titlecase p-0" href="contact.html">Contact us</a>
+              </li>
+             <!-- <li class="nav-item px-4">
+                <a class="nav-link p-0 fw-bold text-uppercase text-decoration-underline"
+                  href="https://templatesjungle.gumroad.com/l/loaner-loan-company-free-bootstrap-html-website-template"
+                  target="_blank">Get Pro</a>
+              </li>
+              <li class="nav-item ps-4 mt-5 mt-lg-0">
+                <a href="num.html" class="btn btn-primary rounded-2">+888 333 9999</a>
+              </li>
+<-->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- header-banner section -->
+  <div class="header-banner z-2 padding-small pt-0">
+    <section id="slider " style="margin-top: 140px;">
+      <img src="images/Pattern.png" alt="pattern" class="position-absolute z-1 d-md-block d-none"
+        style="bottom: -120px; left: 250px;">
+      <div class="swiper slider position-relative">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide d-flex"
+            style="background-image: url(images/header-img.jpg); background-size: cover; background-repeat: no-repeat; height: 80vh; background-position: center; height: 80vh;">
+          </div>
+          <div class="swiper-slide d-flex"
+            style="background-image: url(images/header-img1.jpg); background-size: cover; background-repeat: no-repeat; height: 80vh; background-position: center; height: 80vh;">
+          </div>
+          <div class="swiper-slide d-flex"
+            style="background-image: url(images/header-img2.jpg); background-size: cover; background-repeat: no-repeat; height: 80vh; background-position: center; height: 80vh;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="z-3 position-absolute start-50 top-md-100 translate-middle">
+      <div class="container-md p-5 bg-md-white shadow p-3 mb-5 bg-body-tertiary">
+        <div class="p-3">
+          <h4 class="display-6 fs-3 fw-medium text-capitalize">Providing expert eye care services to improve quality of life and overall health.</h4>
+          <p class="text-secondary  d-md-block d-none">Learn how we're breaking barriers to improve access to eye care.</p>
+          <a href="mission.html" class="btn btn-primary text-capitalize rounded-2 py-3 px-4 ">Our Mission</a>
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  <!-- about-us section -->
+  <section id="about-us" class="padding-medium pb-0 mt-5">
+    <div class="container-md">
+      <div class="row flex-row-reverse align-items-center ">
+        <div class="col-lg-6">
+          <div class="image-holder text-end">
+            <img src="images/banner-image.jpeg" alt="banner" class="img-fluid ">
+          </div>
+        </div>
+        <div class="col-lg-6 mt-5 mt-lg-0    " data-aos="fade-right">
+          <div class="banner-content ">
+            <p class="fw-medium text-primary sub-heading text-uppercase">why eye care matters</p>
+            <h6 class="display-3">Your Vision: Our Mission</h6>
+            <p class="text-secondary" style="font-size: 16px;">At Correctional Vision, our mission is to ensure that incarcerated individuals have access to quality eye care. We are committed to improving vision health, enhancing well-being, and providing the care necessary for individuals to thrive, both during and after their time in correctional facilities. Everyone deserves clear vision, and we strive to make that a reality.</p>
+            <a href="about.html" class="btn btn-primary rounded-2 text-capitalize px-5 mt-2 mt-lg-3">more about us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- types of loan section -->
+  <section id="service" class="type-loan container-md padding-small" data-aos="fade-up">
+    <div class="container-sm banner-content align-items-center justify-content-center text-center mb-5">
+      <p class="fw-medium text-primary sub-heading text-uppercase">services we offer</p>
+      <h6 class="display-3">Partner with Us</h6>
+      <p class="text-secondary" style="font-size: 16px;">At Correctional Vision, we believe that everyone deserves the right to see the world clearly.<br> Our dedicated team of optometrists, ophthalmologists, and medical staff work with <br>correctional facilities to deliver top-tier vision care to those who need it most.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+        <div class="icon-box p-5 text-center border py-lg-7 px-3 rounded-3">
+          <div class="icon-box-icon mb-3">
+            <svg class="ballon" width="50" height="50">
+              <use xlink:href="#eye"></use>
+            </svg>
+          </div>
+          <div class="icon-box-content ps-3">
+            <h4 class="display-6 fs-3 fw-medium text-capitalize">Comprehensive Eye Exams</h4>
+            <p>We go beyond just checking vision—our providers perform a thorough assessment of the overall eye health. We screen for vision problems, assess the eye's internal and external structures, and detect potential conditions like glaucoma, cataracts, or retinal issues to ensure early detection and treatment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+        <div class="icon-box p-5 text-center border py-lg-7 px-3 rounded-3">
+          <div class="icon-box-icon mb-3">
+            <svg class="ballon" width="50" height="50">
+              <use xlink:href="#medical"></use>
+            </svg>
+          </div>
+          <div class="icon-box-content ps-3">
+            <h4 class="display-6 fs-3 fw-medium text-capitalize">Acute & Chronic Eye Care</h4>
+            <p>We provide specialized care for common and complex eye conditions, such as eye infections, injuries, inflammations, and degenerations. Our team works closely with correctional facilities to ensure that incarcerated individuals receive timely, effective treatments that protect their long-term vision and eye health.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+        <div class="icon-box p-5  px-lg-7 text-center border py-lg-7 px-3 rounded-3">
+          <div class="icon-box-icon mb-3">
+            <svg class="ballon" width="50" height="50">
+              <use xlink:href="#rx"></use>
+            </svg>
+          </div>
+          <div class="icon-box-content ps-3">
+            <h4 class="display-6 fs-3 fw-medium text-capitalize">Determination of Refractive Error</h4>
+            <p>Our licensed eye care professionals perform precise vision assessments to determine the correct prescription for eyeglasses. We understand the importance of clear, comfortable vision in everyday living, and we ensure each individual receives the proper corrective lenses tailored to their unique needs.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+        <div class="icon-box p-5 text-center border py-lg-7 px-3 rounded-3">
+          <div class="icon-box-icon mb-3">
+            <svg class="ballon" width="50" height="50">
+              <use xlink:href="#glasses"></use>
+            </svg>
+          </div>
+          <div class="icon-box-content ps-3">
+            <h4 class="display-6 fs-3 fw-medium text-capitalize">Eyewear Fitting & Repairs</h4>
+            <p>We offer professional fitting services to ensure that every pair of glasses is comfortable and suits the individual's facial structure. We take precise optical measurements for fabrication. Additionally, we provide repair services to keep eyewear in good condition, extending its lifespan and maintaining optimal vision correction.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- process details section 
+  <section id="process" data-aos="fade-up">
+    <div class="container-md">
+      <div class="banner-content text-center ">
+        <p class="fw-medium text-primary sub-heading text-uppercase">our standard</p>
+        <h6 class="display-3">Our Pledge:</h6>
+        <p class="text-secondary" style="font-size: 16px;">We believe clear vision improves an individual's ability to read, write, and participate in rehabilitation programs,<br> thus enhancing their opportunities for personal growth and successful reintegration into society.<br> Our team of dedicated eye care professionals are empowered to deliver the highest standard of care with compassion.</p>
+
+        <div class="row align-items-center text-left">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4 pe-2">
+            <div class="process-content">
+              <div class="row">
+                <div class="col-3">
+                  <p class="display-2 text fw-bolder text-outline-black">01.</p>
+                </div>
+                <div class="col-9">
+                  <h6 class="display-6">Experienced</h6>
+                  <p class="text-secondary" style="font-size: 16px;">With over 10 years of care delivery in austere environments, we continue to hone our clinical acumen and share our best practices.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4 pe-2">
+            <div class="process-content">
+              <div class="row">
+                <div class="col-3">
+                  <p class="display-2 text fw-bolder text-outline-black">02.</p>
+                </div>
+                <div class="col-9">
+                  <h6 class="display-6">Equipped</h6>
+                  <p class="text-secondary" style="font-size: 16px;">We invest in the state-of-the-art, portable ophthalmic diagnostic equipment to deliver high-quality, individualized eye care on site. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4 pe-2">
+            <div class="process-content">
+              <div class="row">
+                <div class="col-3">
+                  <p class="display-2 text fw-bolder text-outline-black">03.</p>
+                </div>
+                <div class="col-9">
+                  <h6 class="display-6">Credentialed</h6>
+                  <p class="text-secondary" style="font-size: 16px;">We provide licensed eye care professionals who meet each institution's site-specific training and credentialing requirements. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+-->
+  <!-- reasons to choose us section -->
+  <section id="choose-us" class="padding-small ">
+    <div class="container-md">
+      <div class="row align-items-center ">
+        <div class="col-lg-6">
+          <div class="image-holder text-end">
+            <img src="images/vid.mov" alt="banner" class="img-fluid ">
+          </div>
+        </div>
+        <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-left">
+          <div class="banner-content ">
+            <p class="fw-medium text-primary sub-heading text-uppercase">Why choose us</p>
+            <h6 class="display-3">eye care solutions tailored to your needs</h6>
+            <!--<p class="text-secondary pt-2" style="font-size: 16px;">With over ten years of experience in providing quality eye care in austere environments including various county jails and state prisons, we are your best-in-class providers for your institutional eye care needs.</p>-->
+<p class="text-secondary pt-2" style="font-size: 16px;">We believe clear vision improves an individual's ability to read, write, and participate in rehabilitation programs, thus enhancing their opportunities for personal growth and successful reintegration into society. Our team of dedicated eye care professionals are empowered to deliver the highest standard of care with compassion.</p>
+            <div class="check-box">
+
+              <p style="font-size: 16px;"> <span class="tick">
+                  <svg class="check-circle text-primary" width="25" height="25">
+                    <use xlink:href="#check-circle"></use>
+                  </svg>
+                </span>Proven Track Record: With over 10 years of mobile eye care experience, Correctional Vision is a trusted name in the eye care industry.
+              </p>
+
+              <p style="font-size: 16px;"> <span class="tick">
+                  <svg class="check-circle text-primary" width="25" height="25">
+                    <use xlink:href="#check-circle"></use>
+                  </svg>
+                </span>Specialized Care for Incarcerated Individuals: We understand the unique challenges faced by incarcerated individuals and tailor our services to meet their specific needs.
+              </p>
+              <p style="font-size: 16px;"> <span class="tick">
+                  <svg class="check-circle text-primary" width="25" height="25">
+                    <use xlink:href="#check-circle"></use>
+                  </svg>
+                </span>Comprehensive Eye Care: From routine eye exams to the treatment of complex conditions, we offer a full range of eye care services to protect and improve vision health.
+              </p>
+               <p style="font-size: 16px;"> <span class="tick">
+                  <svg class="check-circle text-primary" width="25" height="25">
+                    <use xlink:href="#check-circle"></use>
+                  </svg>
+                </span>Compassionate Approach: We believe in treating every individual with respect and dignity, helping to enhance their quality of life through better vision.
+              </p>
+              <p style="font-size: 16px;"> <span class="tick">
+                  <svg class="check-circle text-primary" width="25" height="25">
+                    <use xlink:href="#check-circle"></use>
+                  </svg>
+                </span>Equipment Investment: We invest in state-of-the-art, portable ophthalmic diagnostic equipment to deliver high-quality, individualized eye care on site.
+              <p style="font-size: 16px;"> <span class="tick">
+                  <svg class="check-circle text-primary" width="25" height="25">
+                    <use xlink:href="#check-circle"></use>
+                  </svg>
+                </span>Experienced Team: Our licensed optometrists and ophthalmologists bring years of expertise, ensuring high-quality care and precise vision solutions.
+              </p>
+               <p style="font-size: 16px;"> <span class="tick">
+                  <svg class="check-circle text-primary" width="25" height="25">
+                    <use xlink:href="#check-circle"></use>
+                  </svg>
+                </span>On-Site Services: We work directly with correctional facilities to provide convenient, on-site eye care, reducing the need for external appointments.
+              </p>
+              <p style="font-size: 16px;"> <span class="tick">
+                  <svg class="check-circle text-primary" width="25" height="25">
+                    <use xlink:href="#check-circle"></use>
+                  </svg>
+                </span>Commitment to Compliance: We ensure our licensed eye care professionals meet each institution's site-specific training and credentialing requirements.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- testimonials section 
+  <section id="testimonials" data-aos="fade-up">
+    <div class="container-md">
+      <div class="banner-content text-center ">
+        <p class="fw-medium text-primary sub-heading text-uppercase">Testimonials</p>
+        <h6 class="display-3">What Our Clients Say</h6>
+        <p class="text-secondary pt-2" style="font-size: 16px;">Discover why clients love Loaner! Read testimonials
+          about their experiences and <br> the financial solutions that have transformed their lives.</p>
+      </div>
+      <div class="swiper testimonial-swiper col-md-8 position-relative ">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide text-center d-flex justify-content-center">
+            <div class="review-item bg-primary text-white p-5 rounded-2  ">
+              <blockquote class=" text-capitalize fst-italic">“A pellen tesque pretium feugiat
+                vel morbi sagittis lorem habi tasse cursus. Suspen dise tempus oncu enim pellen tesque este pretium in
+                neque, elit morbi sagittis lorem habi mattis.”</blockquote>
+              <div class="author-detail text-white fs-medium">
+                <h6 class="text-white">Sarah Michele</h6>
+              </div>
+              <p>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+              </p>
+
+            </div>
+          </div>
+          <div class="swiper-slide text-center d-flex justify-content-center">
+            <div class="review-item bg-primary text-white p-5 rounded-2  ">
+              <blockquote class=" text-capitalize fst-italic">“A pellen tesque pretium feugiat
+                vel morbi sagittis lorem habi tasse cursus. Suspen dise tempus oncu enim pellen tesque este pretium in
+                neque, elit morbi sagittis lorem habi mattis.”</blockquote>
+              <div class="author-detail text-white fs-medium">
+                <h6 class="text-white">Sarah Michele</h6>
+              </div>
+              <p>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+              </p>
+
+            </div>
+          </div>
+          <div class="swiper-slide text-center d-flex justify-content-center">
+            <div class="review-item bg-primary text-white p-5 rounded-2  ">
+              <blockquote class=" text-capitalize fst-italic">“A pellen tesque pretium feugiat
+                vel morbi sagittis lorem habi tasse cursus. Suspen dise tempus oncu enim pellen tesque este pretium in
+                neque, elit morbi sagittis lorem habi mattis.”</blockquote>
+              <div class="author-detail text-white fs-medium">
+                <h6 class="text-white">Sarah Michele</h6>
+              </div>
+              <p>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+              </p>
+
+            </div>
+          </div>
+          <div class="swiper-slide text-center d-flex justify-content-center">
+            <div class="review-item bg-primary text-white p-5 rounded-2  ">
+              <blockquote class=" text-capitalize fst-italic">“Vel morbi sagittis lorem habi
+                tasse cursus. Suspen dise tempus oncu enim pellen tesque este pretium in neque, elit morbi sagittis
+                lorem habi mattis.”</blockquote>
+              <div class="author-detail text-white fs-medium">
+                <h6 class="text-white">Sarah Michele</h6>
+              </div>
+              <p>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+                <svg class="check-circle text-warning" width="25" height="25">
+                  <use xlink:href="#star"></use>
+                </svg>
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="swiper-arrow-wrap d-flex align-items-center justify-content-center mt-5">
+          <div class="swiper-arrow main-slider-button-prev border-end border-3">
+            <svg class="arrow-left" width="100" height="80">
+              <use xlink:href="#arrow-left"></use>
+            </svg>
+          </div>
+          <div class="swiper-arrow main-slider-button-next">
+            <svg class="arrow-right" width="100" height="80">
+              <use xlink:href="#arrow-right"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- news articles 
+  <section id="blog" class=" padding-small container-md text-center align-items-center" data-aos="fade-up">
+    <div class="container-sm banner-content align-items-center justify-content-center text-center mb-5">
+      <p class="fw-medium text-primary sub-heading text-uppercase">news articles</p>
+      <h6 class="display-3">Read our latest articles</h6>
+      <p class="text-secondary" style="font-size: 16px;">Stay informed and empowered with our latest articles. Explore
+        valuable insights,<br>financial tips, and updates to enhance your financial journey.</p>
+    </div>
+
+    <div class="row g-5">
+      <div class="col-md-4 mb-4 pe-2 position-relative">
+        <img src="images/blog1.jpg" alt="blog" class="img-fluid ">
+        <div class="blog text-start bg-white position-absolute top-100 start-50 translate-middle  w-75"
+          style="padding:30px 30px 30px 30px">
+          <h4 class="fw-semibold">Smart Strategies for Managing Personal Finances</h4>
+          <a href="readmore" class="text-primary text-decoration-underline">Read more</a>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4 pe-2 position-relative">
+        <img src="images/blog2.jpg" alt="blog" class="img-fluid">
+        <div class="blog text-start bg-white position-absolute top-100 start-50 translate-middle w-75"
+          style="padding:30px 30px 30px 30px">
+          <h4 class="fw-semibold">Navigating the World of Small Business Loans</h4>
+          <a href="readmore" class="text-primary text-decoration-underline">Read more</a>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4 pe-2 position-relative">
+        <img src="images/blog3.jpg" alt="blog" class="img-fluid">
+        <div class="blog text-start bg-white position-absolute top-100 start-50 translate-middle w-75"
+          style="padding:30px 30px 30px 30px">
+          <h4 class="fw-semibold">The Road to Homeownership: Mortgage Tips and Tricks</h4>
+          <a href="readmore" class="text-primary text-decoration-underline">Read more</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="btn mt-5 pt-5">
+      <a href="aboutus.html" class="btn btn-primary rounded-2 text-capitalize px-5 mt-1 mt-lg-2">read all articles</a>
+    </div>
+  </section>-->
+<script type="text/javascript" src="https://form.jotform.com/jsform/242940670144151"></script>
+  <!-- apply for loan 
+  <section id="loan" class="padding-small pt-0" data-aos="fade-up">
+    <div class="container-sm text-center">
+      <div class="banner-content ">
+        <h6 class="display-3">Apply for loan</h6>
+        <p class="text-secondary" style="font-size: 16px;">Have questions or need assistance? Our dedicated team is
+          ready to assist you.<br> Reach out to us today, and let's start your financial journey together.</p>
+        <a href="aboutus.html" class="btn btn-primary rounded-2 text-capitalize px-5 mt-2 mt-lg-3">Get Appointment</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section -->
+  <footer id="footer" class="border-top">
+    <div class="container-md padding-medium pb-5">
+      <div class="row flex-wrap justify-content-between">
+        <div class="col-lg-5 col-md-6 pb-3">
+          <div class="footer-menu">
+            <div class="container-md justify-content-between d-flex">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/Logo.png" class="logo img-fluid">
+        </a>
+            </div>
+           <!-- <p class="text-secondary pt-2" style="font-size: 16px;">Are you in need of financial assistance? Loaner is
+              here to help you achieve your financial goals. We understand that unexpected expenses can arise at any
+              time, and we're here to provide you with the financial support you need.</p>--> <p></p> <p> </p>
+            <ul class="social-links d-flex flex-wrap list-unstyled">
+              <li class="text-capitalize d-flex align-items-top pb-2 me-3">
+                <svg class="text-primary me-1" width="38" height="38">
+                  <use xlink:href="#location"></use>
+                </svg>
+                <p class="fw-semibold"><a href="#"> Boulder, Colorado,<br> United States </a>
+              </li>
+              <li class="text-capitalize d-flex align-items-top pb-2">
+                <svg class="text-primary me-1" width="38" height="38">
+                  <use xlink:href="#phone"></use>
+                </svg>
+                <p class="fw-semibold"><a href="#">+1 (303) 630-9666 </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class=" col-lg-2 col-md-6 pb-3">
+          <div class="footer-menu">
+            <h6 class="pb-2 fw-semibold">Quick links</h6>
+            <ul class="menu-list d-flex flex-column list-unstyled">
+              <li class="pb-2">
+
+                <a href="index.html"><svg class=" text-primary me-1" width="16" height="16">
+                    <use xlink:href="#alt-arrow"></use>
+                  </svg>Home </a>
+              </li>
+               <li class="pb-2">
+                <a href="mission.html"><svg class=" text-primary me-1" width="16" height="16">
+                    <use xlink:href="#alt-arrow"></use>
+                  </svg>Mission</a>
+              </li>
+              <li class="pb-2">
+                <a href="about.html"><svg class=" text-primary me-1" width="16" height="16">
+                    <use xlink:href="#alt-arrow"></use>
+                  </svg>About </a>
+              </li>
+              <!--li class="pb-2">
+                <a href="about.html"><svg class=" text-primary me-1" width="16" height="16">
+                    <use xlink:href="#alt-arrow"></use>
+                  </svg>Articles</a>
+              </li>
+              <li class="pb-2">
+                <a href="contact.html"><svg class=" text-primary me-1" width="16" height="16">
+                    <use xlink:href="#alt-arrow"></use>
+                  </svg>Contact Us</a>
+              </li-->
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 pb-3">
+          <div class="footer-menu">
+            <!--<h6 class=" pb-2 fw-semibold">Loan Types</h6>
+            <ul class="menu-list d-flex flex-column list-unstyled">
+              <li class="pb-2">
+
+                <a href="about.html"><svg class=" text-primary me-1" width="16" height="16">
+                    <use xlink:href="#alt-arrow"></use>
+                  </svg>Personal Loans</a>
+              </li>
+              <li class="pb-2">
+                <a href="about.html"><svg class=" text-primary me-1" width="16" height="16">
+                    <use xlink:href="#alt-arrow"></use>
+                  </svg>Business Loans </a>
+              </li>
+              <li class="pb-2">
+                <a href="services.html"><svg class=" text-primary me-1" width="16" height="16">
+                    <use xlink:href="#alt-arrow"></use>
+                  </svg>Education Loans</a>
+              </li>
+              <li class="pb-2">
+                <a href="about.html"><svg class=" text-primary me-1" width="16" height="16">
+                    <use xlink:href="#alt-arrow"></use>
+                  </svg>Auto Loans</a>
+              </li>
+              <li class="pb-2">
+                <a href="contact.html"><svg class=" text-primary me-1" width="16" height="16">
+                    <use xlink:href="#alt-arrow"></use>
+                  </svg>Mortage Loans</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 pb-3">
+          <div class="footer-menu">
+            <!--   <h6 class=" pb-2 fw-semibold">Social Links</h6>
+            <ul class="menu-list d-flex flex-column list-unstyled">
+              <li class="pb-2">
+
+                <a href="about.html">Instagram</a>
+              </li>
+              <li class="pb-2">
+                <a href="about.html">Facebook </a>
+              </li>
+              <li class="pb-2">
+                <a href="services.html">Twitter</a>
+              </li>
+              <li class="pb-2">
+                <a href="about.html">Pinterest</a>
+              </li>
+              <li class="pb-2">
+                <a href="contact.html">Youtube</a>
+              </li>
+            </ul>
+          </div>apply for loan -->
+        </div>
+      </div>
+    </div>
+    <div class=" bg-body-tertiary">
+      <div class="container footer-bottom d-md-flex text-center justify-content-between py-4">
+        <p class="mb-0 text-secondary">© 2024 Community Eye Care, PLLC - All rights reserved</p>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts ================================================== -->
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="js/plugins.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+
+</html>
